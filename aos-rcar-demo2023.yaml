@@ -272,6 +272,8 @@ components:
         - [XT_KERNEL_BRANCH, "%{GEN4_XT_KERNEL_BRANCH}"]
         - [XT_KERNEL_REV, "%{GEN4_XT_KERNEL_REV}"]
         - [XT_OP_TEE_FLAVOUR, "%{GEN4_XT_OPTEE_FLAVOR}"]
+	- [IMAGE_INSTALL_append, " iperf3"]
+	- [IMAGE_INSTALL_append, " snort"]
 
         # Network configuration
         - [DOMAIN_NAME, "%{GEN4_DOMAIN_NAME}"]
