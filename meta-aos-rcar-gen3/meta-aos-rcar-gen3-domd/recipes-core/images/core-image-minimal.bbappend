@@ -22,6 +22,7 @@ IMAGE_INSTALL += " \
     aos-iamanager \
     aos-servicemanager \
     aos-updatemanager \
+    aos-message-proxy \
 "
 
 ROOTFS_POSTPROCESS_COMMAND += "set_rootfs_version; create_unprovisioned_flag;"

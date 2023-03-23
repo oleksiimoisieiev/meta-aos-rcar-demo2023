@@ -95,7 +95,7 @@ common_data:
       rev: "c62970f"
     - type: git
       url: "https://github.com/aoscloud/meta-aos"
-      rev: "v7.0.1"
+      rev: "v7.0.4"
     - type: git
       url: "https://github.com/xen-troops/meta-xt-common.git"
       rev: "c1ad85f"
