@@ -1,8 +1,8 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
 RENESAS_BSP_URL = "git://github.com/xen-troops/linux.git"
-BRANCH = "${XT_KERNEL_BRANCH}"
-SRCREV = "${XT_KERNEL_REV}"
+BRANCH = "v5.10.41/rcar-5.1.7.rc6-xt"
+SRCREV = "f5bb327b43cc6248cde9f3baf18e64257be8bc02"
 
 SRC_URI_append = "\
     file://defconfig \
@@ -16,13 +16,14 @@ SRC_URI_append = " \
     file://gpio.cfg \
     file://l3offload.cfg \
     file://ixgbe.cfg \
+    file://ufs.cfg \
     file://xen-chosen.dtsi;subdir=git/arch/arm64/boot/dts/renesas \
-    file://0001-clk-shmobile-Hide-clock-for-scif3-and-hscif0.patch \
-    file://0001-PCIe-MSI-support.patch \
-    file://0002-xen-pciback-allow-compiling-on-other-archs-than-x86.patch \
-    file://0003-HACK-Allow-DomD-enumerate-PCI-devices.patch \
-    file://0004-HACK-pcie-renesas-emulate-reading-from-ECAM-under-Xe.patch \
+    file://0001-clk-shmobile-Hide-clock-for-scif3-and-hscif0.patch \\
     file://0001-xen-blkback-update-persistent-grants-enablement-logi.patch \
+    file://0002-PCIe-MSI-support.patch \
+    file://0003-xen-pciback-allow-compiling-on-other-archs-than-x86.patch \
+    file://0004-HACK-Allow-DomD-enumerate-PCI-devices.patch \
+    file://0005-HACK-pcie-renesas-emulate-reading-from-ECAM-under-Xe.patch \
 "
 
 ADDITIONAL_DEVICE_TREES = "${XT_DEVICE_TREES}"
