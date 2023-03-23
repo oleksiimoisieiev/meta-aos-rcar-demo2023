@@ -18,7 +18,7 @@ SRC_URI_append = " \
     file://ixgbe.cfg \
     file://ufs.cfg \
     file://xen-chosen.dtsi;subdir=git/arch/arm64/boot/dts/renesas \
-    file://0001-clk-shmobile-Hide-clock-for-scif3-and-hscif0.patch \\
+    file://0001-clk-shmobile-Hide-clock-for-scif3-and-hscif0.patch \
     file://0001-xen-blkback-update-persistent-grants-enablement-logi.patch \
     file://0002-PCIe-MSI-support.patch \
     file://0003-xen-pciback-allow-compiling-on-other-archs-than-x86.patch \
