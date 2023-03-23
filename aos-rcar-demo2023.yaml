@@ -404,6 +404,7 @@ components:
         - [XT_DOM_NAME, "domd"]
         - [XT_DEVICE_TREES, "%{GEN3_XT_DOMD_DTB_NAME} %{GEN3_XT_XEN_DTB_NAME}"]
         - [XT_OP_TEE_FLAVOUR, "%{GEN3_XT_OP_TEE_FLAVOUR}"]
+	- [IMAGE_INSTALL_append, " iperf3"]
 
         # Network configuration
         - [DOMAIN_NAME, "%{GEN3_DOMAIN_NAME}"]
