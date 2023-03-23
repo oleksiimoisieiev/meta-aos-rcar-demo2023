@@ -274,6 +274,8 @@ components:
         - [XT_OP_TEE_FLAVOUR, "%{GEN4_XT_OPTEE_FLAVOR}"]
 	- [IMAGE_INSTALL_append, " iperf3"]
 	- [IMAGE_INSTALL_append, " snort"]
+	- [IMAGE_INSTALL_append, " iproute2"]
+	- [IMAGE_INSTALL_append, " iproute2-tc"]
 
         # Network configuration
         - [DOMAIN_NAME, "%{GEN4_DOMAIN_NAME}"]
