@@ -29,6 +29,7 @@ IMAGE_INSTALL += " \
     aos-communicationmanager \
     aos-servicemanager \
     aos-updatemanager \
+    aos-message-proxy \
 "
 
 ROOTFS_POSTPROCESS_COMMAND += "set_unit_model; set_rootfs_version; create_unprovisioned_flag;"
