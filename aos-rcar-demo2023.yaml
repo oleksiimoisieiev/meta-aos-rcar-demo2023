@@ -554,8 +554,8 @@ parameters:
             build-dir: "%{GEN4_ZEPHYR_DOM0_DIR}"
             sources:
               - type: west
-                url: https://github.com/aoscloud/aos_core_zephyr.git
-                rev: integration
+                url: https://github.com/oleksiimoisieiev/aos_core_zephyr.git
+                rev: sim
             builder:
               type: zephyr
               board: "%{GEN4_ZEPHYR_DOM0_MACHINE}"
@@ -572,8 +572,8 @@ parameters:
             build-dir: "%{GEN3_ZEPHYR_DOM0_DIR}"
             sources:
               - type: west
-                url: https://github.com/aoscloud/aos_core_zephyr.git
-                rev: integration
+                url: https://github.com/oleksiimoisieiev/aos_core_zephyr.git
+                rev: sim
             builder:
               type: zephyr
               board: "%{GEN3_ZEPHYR_DOM0_MACHINE}"
