@@ -23,7 +23,7 @@
 			};
 			module@2 {
 				compatible = "xen,xsm-policy", "xen,multiboot-module";
-				reg = <0x0 0x8c000000 0x0 0x10000>;
+				reg = <0x0 0x8e000000 0x0 0x10000>;
 			};
 		};
 	};
