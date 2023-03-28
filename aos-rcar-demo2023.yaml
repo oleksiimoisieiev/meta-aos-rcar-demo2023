@@ -564,7 +564,7 @@ parameters:
               shields:
                 - "xenvm_dom0"
               additional_deps:
-                - "%{YOCTOS_WORK_DIR}/%{GEN4_DOMD_BUILD_DIR}/tmp/deploy/images/%{GEN4_MACHINE}/Image"
+                - "%{YOCTOS_WORK_DIR}/%{GEN4_DOMD_BUILD_DIR}/tmp/deploy/images/%{GEN4_MACHINE}/Image-%{GEN4_MACHINE}.bin"
               target_images:
                 - "build/zephyr/zephyr.bin"
 
@@ -582,7 +582,7 @@ parameters:
               shields:
                 - "xenvm_dom0"
               additional_deps:
-                - "%{YOCTOS_WORK_DIR}/%{GEN3_DOMD_BUILD_DIR}/tmp/deploy/images/%{GEN3_MACHINE}/Image"
+                - "%{YOCTOS_WORK_DIR}/%{GEN3_DOMD_BUILD_DIR}/tmp/deploy/images/%{GEN3_MACHINE}/Image-%{GEN3_MACHINE}.bin"
               target_images:
                 - "build/zephyr/zephyr.bin"
 
