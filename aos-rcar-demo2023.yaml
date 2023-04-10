@@ -109,8 +109,8 @@ common_data:
       url: "https://github.com/xen-troops/meta-xt-common.git"
       rev: "c1ad85f"
     - type: git
-      url: "https://github.com/aoscloud/meta-aos-rcar-demo2023"
-      rev: "feature_zephyr"
+      url: "https://github.com/oleksiimoisieiev/meta-aos-rcar-demo2023"
+      rev: "xen_update"
 
   # Sources to be used in DomD
   domd_sources: &DOMD_SOURCES
