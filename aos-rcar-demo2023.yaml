@@ -112,7 +112,7 @@ common_data:
       url: "https://github.com/xen-troops/meta-xt-common.git"
       rev: "c1ad85f"
     - type: git
-      url: "https://github.com/aoscloud/meta-aos-rcar-demo2023"
+      url: "https://github.com/oleksiimoisieiev/meta-aos-rcar-demo2023"
       rev: "test"
 
   # Zephyr sources
